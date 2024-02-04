@@ -14,7 +14,6 @@ function removenonedis() {
 }
  
 function deleteRow(e) {
-    debugger
   const itemToDelete = e.target.closest(".create-js");
   if (itemToDelete) {
     itemToDelete.remove();
@@ -69,6 +68,7 @@ COMPLETED.addEventListener("drop", handleDrop);
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const input = document.getElementById("input-tag");
+  const inputdate = document.getElementById("input-date")
   const value = document.createElement("form");
   value.classList.add("create-js");
   value.setAttribute("draggable", true);
@@ -77,6 +77,7 @@ form.addEventListener("submit", (e) => {
   value.addEventListener("dragend", handleDragEnd);
   value.innerHTML = `<input class="checkbox-round" type="checkbox" name="Checkbox" id=${inc}>
      <label class="create-js-label" for=${inc}>${input.value}</label>
+     <div class = "create-js-date">${inputdate.value}</div>
      <button class="create-js-button" onclick="deleteRow(event)" ><span class="material-symbols-outlined delete">delete</span></button>
      `;
  
