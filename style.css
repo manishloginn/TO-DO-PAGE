@@ -1,15 +1,16 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
+ 
 body {
   width: 100%;
   background-color: rgb(29, 29, 29);
   overflow-x: hidden;
 }
-
+ 
 .top {
   background: #0d0d0d;
   width: 100vw;
@@ -18,8 +19,8 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.logoto {
+ 
+.logo-to {
   color: rgba(78, 168, 222, 1);
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -28,7 +29,7 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
-.logodo {
+.logo-do {
   color: rgba(94, 96, 206, 1);
   font-family: "Inter", sans-serif;
   font-size: 40px;
@@ -37,22 +38,22 @@ body {
   letter-spacing: 0em;
   text-align: center;
 }
-
+ 
 .logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-.inputboxx {
+ 
+.input-box {
   width: 100vw;
   display: flex;
   gap: 10px;
   justify-content: center;
   margin-top: -20px;
 }
-
-.inputboxx input {
+ 
+.input-box input {
   border-radius: 10px;
   width: 644px;
   height: 50px;
@@ -63,7 +64,7 @@ body {
   color: white;
   border: 1px solid rgba(13, 13, 13, 1);
 }
-.inputboxx button {
+.input-box button {
   background-color: rgba(30, 111, 159, 1);
   color: white;
   cursor: pointer;
@@ -85,7 +86,7 @@ body {
   outline: none;
   border-radius: 10px;
 }
-
+ 
 .todo {
   /* border: 1px solid white; */
   display: flex;
@@ -96,8 +97,8 @@ body {
   gap: 30px;
   padding: 20px;
 }
-
-.todo1 {
+ 
+.todo-section {
   border-bottom: 1px solid rgba(51, 51, 51, 1);
   display: flex;
   justify-content: center;
@@ -106,8 +107,8 @@ body {
   width: 50vw;
   /* border: 1px solid white; */
 }
-
-.todohead {
+ 
+.todo-head {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -121,35 +122,33 @@ body {
   align-items: center;
   color: rgba(130, 132, 250, 1);
 }
-
-.firstitem,
-.seconditem {
+ 
+.first-item,
+.second-item {
   cursor: pointer;
   width: fit-content;
 }
-
-.ifempty {
+ 
+.if-empty {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   width: 688px;
-height: 22px;
-
+  height: 22px;
 }
-
-.emptytext {
+ 
+.empty-text {
   font-family: "Inter", sans-serif;
-font-size: 16px;
-font-weight: 700;
-line-height: 22px;
-letter-spacing: 0em;
-color: rgba(128, 128, 128, 1);
-text-align: center;
-
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: rgba(128, 128, 128, 1);
+  text-align: center;
 }
-
+ 
 .checkbox-round {
   width: 20px;
   height: 20px;
@@ -162,20 +161,19 @@ text-align: center;
   outline: none;
   cursor: pointer;
 }
-
+ 
 .checkbox-round:checked {
   background-image: url(./asset/check.svg);
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
 }
-
-.nonedisplay {
+ 
+.none-display {
   display: none;
 }
-
-.createjs {
-
+ 
+.create-js {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -184,25 +182,25 @@ text-align: center;
   /* border: 1px solid white; */
   padding: 10px;
 }
-
-.createjsbutton {
+ 
+.create-js-button {
   background-color: transparent;
   border: none;
 }
-
-.delet {
-  color: rgba(128, 128, 128, 1)
-  ;
+ 
+.delete {
+  color: rgba(128, 128, 128, 1);
   cursor: pointer;
 }
-
-.createjslable {
+ 
+.create-js-label {
   font-family: "Inter", sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: rgba(242, 242, 242, 1)
-;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(242, 242, 242, 1);
 }
+ 
+ 
