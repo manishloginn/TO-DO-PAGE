@@ -88,6 +88,6 @@ form.addEventListener("submit", (e) => {
     getNewId();
   }
   input.value = "";
-  inputdate.value = ""
+  inputdate.value = "";
 
 });
