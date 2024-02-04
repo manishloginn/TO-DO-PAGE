@@ -81,7 +81,7 @@ form.addEventListener("submit", (e) => {
      <button class="create-js-button" onclick="deleteRow(event)" ><span class="material-symbols-outlined delete">delete</span></button>
      `;
  
-  if (input.value === "") {
+  if ((input.value === "")&& (inputdate.value == "")) {
     alert("Please write something");
   } else {
     TO_DO.append(value);
